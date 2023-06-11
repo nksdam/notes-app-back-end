@@ -271,6 +271,8 @@ const deleteHistory = (request, h) => {
   return response
 }
 
+//delete user
+
 const deleteUser = (request, h) => {
   const { userid } = request.params
 
